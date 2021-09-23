@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    height: 100px;
+    width: 100%;
+}
+label.logo{
+    color:rgb(21, 141, 156);
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:rgb(21, 141, 156);
+    font-size: 15px;
+    
+}
+nav li a:hover {
+    color:black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer{
+    background: rgb(136, 134, 134);
+    color:white;
+    font-size: 14px;
+    padding: 30px 0 10px;
+    margin-top: 30px;
+}
+.footer p{
+    color:white;
+}
+
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer hr{
+    border: none;
+    background:white;
+    height: 1px;
+    margin: 20px 0;
+}
+.Copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 20px;
+    margin-left: 10px;
+}
+.small-container{
+    margin: 80px auto;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: rgb(21, 141, 156);
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color:rgb(21, 141, 156);
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.price{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.price table{
+    border-top: 3px solid rgb(21, 141, 156);
+    width: 100%;
+    max-width: auto;
+    
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}

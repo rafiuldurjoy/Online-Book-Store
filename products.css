@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    height: 100px;
+    width: 100%;
+}
+label.logo{
+    color: rgb(21, 141, 156);
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:rgb(21, 141, 156);
+    font-size: 15px;
+    
+}
+nav li a:hover {
+    color:black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.small-container{
+ margin: auto;
+ max-width: 100%;
+ padding-left: 25px;
+ padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 5px;
+    min-width: 100px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+
+.col-4 p{
+    font-size: 14px;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+/*----all books----*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid rgb(21, 141, 156);
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+
+.select-btn{
+    margin: 0 auto 80px;
+}
+.select-btn span{
+    display: inline-block;
+    border: 1px solid rgb(21, 141, 156);
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.select-btn span:hover{
+    background: rgb(21, 141, 156);
+}
+
+.footer{
+    background:rgb(136, 134, 134);
+    color: white;
+    font-size: 14px;
+    padding: 30px 0 10px;
+    margin-top: 30px;
+}
+.footer p{
+    color: white;
+}
+
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer hr{
+    border: none;
+    background: white;
+    height: 1px;
+    margin: 20px 0;
+}
+.Copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 20px;
+    margin-left: 10px;
+}
